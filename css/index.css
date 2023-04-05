@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mancon {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.butuconta {
+  width: 84px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+#butt {
+  width: 34px;
+  border-radius: 50%;
+  height: 34px;
+  background-color: rgb(0, 0, 0);
+
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+  animation: leftright 0.5s linear;
+  transition: 0.5s;
+}
+/* @keyframes leftright {
+	0%{
+		left:0;
+	}
+	100%{
+		left:calc(100% - 36px);
+	}
+} */
